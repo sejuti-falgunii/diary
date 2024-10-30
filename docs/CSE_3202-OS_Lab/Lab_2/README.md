@@ -1,6 +1,6 @@
 # Introduction to Shell Script
 
-### Variables & I/O
+## Variables & I/O
 
 ```bash
 num=5
@@ -12,14 +12,14 @@ read name
 echo "Hola $name !"
 ```
 
-### Argument
+## Argument
 
 ```bash
 echo "Shell script $0"
 echo "Argument 1 $1"
 ```
 
-### Condition
+## Condition
 
 - String Comparison
 
@@ -67,7 +67,7 @@ else
 fi
 ```
 
-### Loops
+## Loops
 
 - For Loop
 
@@ -104,7 +104,7 @@ do
 done
 ```
 
-### Problems
+## Problems
 
 <details>
    <summary>Delete all files and folders of current directory using rm and rmdir but don't delete the running shell script</summary>
@@ -141,5 +141,4 @@ done
 ```
 
 </details>
-
 
