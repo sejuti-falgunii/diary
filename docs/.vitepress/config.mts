@@ -4,12 +4,15 @@ export default defineConfig({
   title: "LabDocs",
   description: "KUET CSE Lab Works and Docs by @Faysal",
   base: '/3-2_Lab_works/',
+  head: [['link', { rel: 'icon', type: 'image/png', href: '/3-2_Lab_works/google-docs.png' }]],
   
   themeConfig: {
+    logo: '/physics.png',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Lab Works', link: '/CSE_3202-OS_Lab/Lab_1/README' }
     ],
+    
 
     sidebar: [
       {
