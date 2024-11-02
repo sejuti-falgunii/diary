@@ -3,10 +3,12 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "LabDocs",
   description: "KUET CSE Lab Works and Docs by @Faysal",
+  base: '/3-2_Lab_works/',
+  
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Lab Works', link: '/CSE_3202-OS_Lab/Lab_1/README' }
     ],
 
     sidebar: [
@@ -24,5 +26,16 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Faysal-star/3-2_Lab_works' }
     ]
+  },
+
+  vite: {
+    build: {
+      assetsInlineLimit: 0,
+      rollupOptions: {
+        output: {
+          manualChunks: undefined
+        }
+      }
+    }
   }
 })
