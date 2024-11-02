@@ -21,6 +21,14 @@ export default defineConfig({
           { text: 'Lab 3: Intro to Bash 2', link: '/CSE_3202-OS_Lab/Lab_3/README' },
         ]
       },
+      {
+        text: 'CSE 3212 : Compiler',
+        collapsed: false,
+        items: [
+          { text: 'Lab 1: Intro to Flex', link: '/CSE_3212-Compiler_Lab/Lab_1/README' },
+          { text: 'Lab 2: Intro to Flex 2', link: '/CSE_3212-Compiler_Lab/Lab_2/README' },
+        ]
+      },
     ],
 
     socialLinks: [
