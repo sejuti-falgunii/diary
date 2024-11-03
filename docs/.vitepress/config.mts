@@ -8,6 +8,9 @@ export default defineConfig({
   
   themeConfig: {
     logo: '/physics.png',
+    search:{
+      provider:'local'
+    },
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Lab Works', link: '/CSE_3202-OS_Lab/Lab_1/README' }
