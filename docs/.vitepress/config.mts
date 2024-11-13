@@ -25,6 +25,7 @@ export default defineConfig({
           { text: 'Lab 1: Intro to Terminal', link: '/CSE_3202-OS_Lab/Lab_1/README' },
           { text: 'Lab 2: Intro to Bash', link: '/CSE_3202-OS_Lab/Lab_2/README' },
           { text: 'Lab 3: Intro to Bash 2', link: '/CSE_3202-OS_Lab/Lab_3/README' },
+          { text: 'Lab 4: Intro to Vim', link: '/CSE_3202-OS_Lab/Lab_4/README' },
         ]
       },
       {
